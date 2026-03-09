@@ -1,5 +1,19 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: beige;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+}
+
+.contenedor {
+    display: flex; flex-direction: column; align-items: center;
+    gap: 20px; margin-top: 300px; padding: 20px;
+    border: 2px solid black; border-radius: 20px;
+    background-color: rgb(244, 244, 61);
+    box-shadow: 3px 3px 7px black;
+}
+
+#excuse {
+    font-weight: bold;
+    color: rgb(104, 18, 18);
 }
